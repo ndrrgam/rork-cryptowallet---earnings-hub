@@ -2,35 +2,35 @@
 export const colors = {
   // Main colors
   background: '#FF5722',
-  card: '#F8F9FA',
-  primary: '#6C5CE7',
-  secondary: '#00D2D3',
-  accent: '#FD79A8',
+  card: '#FF7043', // Slightly lighter than background
+  primary: '#FFD600', // Link/Highlight color
+  secondary: '#FFECB3', // Icon active color
+  accent: '#FFA726',
   
   // Text colors
-  text: '#1A1A1A',
-  textSecondary: '#666666', 
-  textMuted: '#999999',
+  text: '#FFFFFF', // Main text
+  textSecondary: '#F5F5F5', // Secondary text
+  textMuted: '#FFCCBC', // Even lighter for muted text
   
   // Status colors
-  success: '#00B894',
-  warning: '#FDCB6E',
-  error: '#FF7675',
+  success: '#A5D6A7', // Light green that works on orange
+  warning: '#FFE082', // Light amber
+  error: '#EF9A9A', // Light red
   
-  // Gradients
-  gradientPrimary: ['#6C5CE7', '#8E5CE7'],
-  gradientSecondary: ['#00D2D3', '#00B8D4'],
+  // Gradients - keeping with warm theme
+  gradientPrimary: ['#FF5722', '#FF7043'],
+  gradientSecondary: ['#FFD600', '#FFECB3'],
   
   // UI elements
-  border: '#E8E8E8',
-  input: '#F1F3F5',
+  border: '#FF7043', // Slightly lighter than background
+  input: '#FF7043', // Card color for input backgrounds
   buttonText: '#FFFFFF',
-  tabBar: '#FFFFFF',
-  tabBarInactive: '#888888',
-  tabBarActive: '#6C5CE7',
+  tabBar: '#FF5722', // Same as background
+  tabBarInactive: '#FFCCBC',
+  tabBarActive: '#FFD600',
   
   // Wallet specific
-  positive: '#00B894',
-  negative: '#FF7675',
-  neutral: '#666666',
+  positive: '#A5D6A7', // Same as success
+  negative: '#EF9A9A', // Same as error
+  neutral: '#F5F5F5', // Same as textSecondary
 };
