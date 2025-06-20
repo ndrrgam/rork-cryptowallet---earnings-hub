@@ -1,16 +1,16 @@
 // Color palette for the app
 export const colors = {
   // Main colors
-  background: '#121212',
-  card: '#1E1E1E',
+  background: '#FFFFFF',
+  card: '#F8F9FA',
   primary: '#6C5CE7',
   secondary: '#00D2D3',
   accent: '#FD79A8',
   
   // Text colors
-  text: '#FFFFFF',
-  textSecondary: '#A0A0A0',
-  textMuted: '#666666',
+  text: '#1A1A1A',
+  textSecondary: '#666666',
+  textMuted: '#999999',
   
   // Status colors
   success: '#00B894',
@@ -22,15 +22,15 @@ export const colors = {
   gradientSecondary: ['#00D2D3', '#00B8D4'],
   
   // UI elements
-  border: '#2D2D2D',
-  input: '#2A2A2A',
+  border: '#E8E8E8',
+  input: '#F1F3F5',
   buttonText: '#FFFFFF',
-  tabBar: '#1A1A1A',
+  tabBar: '#FFFFFF',
   tabBarInactive: '#888888',
   tabBarActive: '#6C5CE7',
   
   // Wallet specific
   positive: '#00B894',
   negative: '#FF7675',
-  neutral: '#A0A0A0',
+  neutral: '#666666',
 };
