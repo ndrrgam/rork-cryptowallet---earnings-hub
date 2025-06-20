@@ -50,7 +50,7 @@ export const MissionCard = ({ mission }: MissionCardProps) => {
         <View style={styles.header}>
           <Text style={styles.title}>{mission.title}</Text>
           <View style={styles.rewardBadge}>
-            <Text style={styles.rewardText}>{mission.reward} XYZ</Text>
+            <Text style={styles.rewardText}>{mission.reward} PVS</Text>
           </View>
         </View>
         

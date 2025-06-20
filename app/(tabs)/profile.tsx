@@ -147,7 +147,7 @@ export default function ProfileScreen() {
                 <Text style={styles.referralStatLabel}>Friends Referred</Text>
               </View>
               <View style={styles.referralStat}>
-                <Text style={styles.referralStatValue}>{referral.earned} XYZ</Text>
+                <Text style={styles.referralStatValue}>{referral.earned} PVS</Text>
                 <Text style={styles.referralStatLabel}>Tokens Earned</Text>
               </View>
             </View>
