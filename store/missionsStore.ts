@@ -33,8 +33,8 @@ export const useMissionsStore = create<MissionsState>((set, get) => ({
     },
     {
       id: 'mission3',
-      title: 'Stake $PVS',
-      description: 'Stake any amount of $PVS tokens',
+      title: 'Stake PVS',
+      description: 'Stake any amount of PVS tokens',
       reward: 15,
       expires: Date.now() + 86400000,
       completed: true

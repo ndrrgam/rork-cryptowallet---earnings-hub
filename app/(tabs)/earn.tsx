@@ -20,7 +20,7 @@ export default function EarnScreen() {
     <View style={styles.container}>
       <Stack.Screen 
         options={{
-          title: 'Earn XYZ',
+          title: 'Earn PVS',
           headerStyle: {
             backgroundColor: colors.background,
           },
@@ -59,19 +59,19 @@ export default function EarnScreen() {
           
           <View style={[styles.boosterCard, styles.newBoosterCard]}>
             <Text style={styles.newBoosterText}>Get New Booster</Text>
-            <Text style={styles.newBoosterPrice}>500 XYZ</Text>
+            <Text style={styles.newBoosterPrice}>500 PVS</Text>
           </View>
         </View>
         
         <View style={styles.stakingContainer}>
           <Text style={styles.sectionTitle}>Staking</Text>
           <Text style={styles.stakingDescription}>
-            Stake your XYZ tokens to increase your earning rate and boost multiplier.
+            Stake your PVS tokens to increase your earning rate and boost multiplier.
           </Text>
           
           <View style={styles.stakingCard}>
             <Text style={styles.stakingLabel}>Currently Staked</Text>
-            <Text style={styles.stakingAmount}>{useEarningStore.getState().stakingAmount} XYZ</Text>
+            <Text style={styles.stakingAmount}>{useEarningStore.getState().stakingAmount} PVS</Text>
             <Text style={styles.stakingBoost}>
               +{((useEarningStore.getState().boosted - 1) * 100).toFixed(0)}% Boost
             </Text>

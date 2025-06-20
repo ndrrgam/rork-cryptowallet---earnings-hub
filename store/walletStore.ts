@@ -17,8 +17,8 @@ export const useWalletStore = create<WalletState>((set, get) => ({
   tokens: [
     {
       id: 'pvs',
-      symbol: '$PVS',
-      name: '$PVS Token',
+      symbol: 'PVS',
+      name: 'PVS Token',
       balance: '1000.00',
       value: 1000.00,
       change24h: 5.67,
@@ -30,7 +30,7 @@ export const useWalletStore = create<WalletState>((set, get) => ({
       id: '1',
       type: 'receive',
       amount: '100',
-      token: '$PVS',
+      token: 'PVS',
       address: '0x9876...4321',
       timestamp: Date.now() - 3600000
     }

@@ -18,12 +18,12 @@ export const EarningCard = () => {
     >
       <View style={styles.content}>
         <Text style={styles.title}>Total Earned</Text>
-        <Text style={styles.amount}>{totalEarned} $PVS</Text>
+        <Text style={styles.amount}>{totalEarned} PVS</Text>
         
         <View style={styles.rateContainer}>
           <Text style={styles.rateLabel}>Earning Rate</Text>
           <Text style={styles.rateValue}>
-            {earningRate} $PVS/day {boosted > 1 && `(${((boosted - 1) * 100).toFixed(0)}% Boost)`}
+            {earningRate} PVS/day {boosted > 1 && `(${((boosted - 1) * 100).toFixed(0)}% Boost)`}
           </Text>
         </View>
       </View>
