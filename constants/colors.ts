@@ -9,7 +9,7 @@ export const colors = {
   
   // Text colors
   text: '#1A1A1A',
-  textSecondary: '#666666',
+  textSecondary: '#666666', 
   textMuted: '#999999',
   
   // Status colors
