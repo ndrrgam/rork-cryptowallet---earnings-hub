@@ -1,7 +1,7 @@
 // Color palette for the app
 export const colors = {
   // Main colors
-  background: '#FFFFFF',
+  background: '#FF5722',
   card: '#F8F9FA',
   primary: '#6C5CE7',
   secondary: '#00D2D3',
