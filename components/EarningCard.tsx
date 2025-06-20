@@ -1,14 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ColorValue } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { ColorValue } from 'react-native';
 import { colors } from '@/constants/colors';
 import { useEarningStore } from '@/store/earningStore';
 
 export const EarningCard = () => {
   const { totalEarned, earningRate, boosted } = useEarningStore();
   
-  const gradientColors: readonly [ColorValue, ColorValue] = [colors.gradientPrimary[0] as ColorValue, colors.gradientPrimary[1] as ColorValue];
+  const gradientColors: [ColorValue, ColorValue] = [colors.gradientPrimary[0], colors.gradientPrimary[1]];
   
   return (
     <LinearGradient
